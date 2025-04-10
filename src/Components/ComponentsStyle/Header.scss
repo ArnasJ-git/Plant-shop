@@ -1,0 +1,46 @@
+
+
+
+.header-bg {
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.15);
+    background: $white;
+    min-height: 60px;
+
+    .header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        min-height: inherit;
+
+        &-nav a {
+            color: $black;
+            font-weight: 400;
+            font-size: 17px;
+            padding: 10px;
+            margin: 0 32px;
+        }
+
+        &-side {
+            display: flex;
+            align-items: baseline;
+
+
+
+            .side-search {
+                display: flex;
+                color: $textgrey;
+
+                img {
+                    margin: 0 20px;
+                    display: inline-block;
+                }
+
+            }
+
+            .side-cart {
+                border-left: 1px solid $textgrey;
+                padding: 7px 0 7px 20px;
+            }
+        }
+    }
+}
