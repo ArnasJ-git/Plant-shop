@@ -13,7 +13,7 @@ export default function Title({text1,  text2, showLink}) {
             </h2>
             {
              showLink &&(
-            <a href="#">Shop All &gt;</a>
+            <a className="title-link" href="#">Shop All &gt;</a>
              )   
             }
         </div>

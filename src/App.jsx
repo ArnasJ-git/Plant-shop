@@ -1,7 +1,11 @@
-import TopBanner from "./Components/TopBanner"
-import Header from "./Components/Header"
-import Hero from "./Components/Hero"
-import Title from "./Components/Title"
+import TopBanner from "./Components/TopBanner";
+import Header from "./Components/Header";
+import Hero from "./Components/Hero";
+import SectionCategories from "./Components/SectionCategories";
+import SectionBest from "./Components/SectionBest";
+import SectionHot from "./Components/SectionHot";
+import SectionDeals from "./Components/SectionDeals";
+import SectionTestimonials from "./Components/SectionTestimonials";
 
 function App() {
 
@@ -10,7 +14,11 @@ function App() {
       <TopBanner />
       <Header />
       <Hero />
-      <Title text1 = 'Shop' text2 = 'By Category' showLink={true} />
+      <SectionCategories />
+      <SectionBest />
+      <SectionHot />
+      <SectionDeals />
+      <SectionTestimonials />
     </>
   )
 }

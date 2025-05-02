@@ -15,3 +15,16 @@
     text-transform: uppercase;
     line-height: 70px;
 }
+
+.green-btn {
+    background-color: $green;
+    border-radius: 8px;
+    color: $white;
+    max-width: 364px;
+    width: 100%;
+    font-size: 20px;
+    height: 64px;
+    line-height: 64px;
+    text-align: center;
+
+}

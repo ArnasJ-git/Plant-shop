@@ -1,0 +1,66 @@
+.plant-card {
+    background-color: $white;
+    padding: 20px;
+    max-width: 282px;
+    width: 100%;
+    border-radius: 16px;
+    box-shadow: 0px 8px 23px rgba(80, 107, 82, 0.13);
+
+    .image-box {
+        max-height: 219px;
+        height: 100%;
+        width: 100%;
+        overflow: hidden;
+        border-radius: 8px;
+        position: relative;
+
+        .plant-img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            object-position: center;
+            display: block;
+        }
+        .discount-block {
+            position: absolute;
+            color: $white;
+            background-image: url('../../assets/discount-bg.svg');
+            width: 64px;
+            height: 64px;
+            right: 10px;
+            top: 10px;
+            background-repeat: no-repeat;
+            background-position: center;
+            font-size: 12px;
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            justify-content: center;
+        }
+    }
+
+    .card-text {
+        margin: 16px 0;
+
+        .plant-title {
+            font-weight: 600;
+            font-size: 20px;
+            line-height: 1.5;
+            margin-bottom: 5px;
+
+          
+        }
+        .plant-price {
+            font-weight: 400;
+            font-size: 20px;
+            line-height: 1.5;
+        }
+        .plant-price-red {
+            font-weight: 400;
+            font-size: 16px;
+            color: $red;
+            text-decoration: line-through;
+            padding-left: 10px;
+        }
+    }
+}
