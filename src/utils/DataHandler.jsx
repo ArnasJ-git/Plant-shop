@@ -2,7 +2,7 @@ import ClipLoader from "react-spinners/ClipLoader";
 
 
 
-export default function DataHandler({ loading, error, children }) {
+export default function DataHandler({ loading, error, children, noData}) {
 
     if (loading) {
         return (<ClipLoader
@@ -12,6 +12,11 @@ export default function DataHandler({ loading, error, children }) {
     }
     if (error) {
         return (<>Error:{error}</>)
+    }
+    if(noData) {
+        return(
+        <div className="example">Plant not found</div>
+    )
     }
     return (children)
 }

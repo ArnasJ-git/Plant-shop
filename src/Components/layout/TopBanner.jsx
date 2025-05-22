@@ -1,4 +1,4 @@
-import './ComponentsStyle/TopBanner.scss'
+import '../ComponentsStyle/TopBanner.scss'
 export default function TopBanner() {
     return (
         <div className="green-bg">

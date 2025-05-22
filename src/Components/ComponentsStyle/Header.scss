@@ -20,6 +20,11 @@
             margin: 0 32px;
         }
 
+        &-nav a.active {
+            color: $green;
+            
+        }
+
         &-side {
             display: flex;
             align-items: baseline;
